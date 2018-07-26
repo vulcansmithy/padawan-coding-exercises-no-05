@@ -56,3 +56,14 @@ This should print out
 Hello Kristine!
 ```
 &nbsp;
+
+5. Copy the above file and name it ```exercise_05.rb```.  Now change your method so that instead of always using "```Hello ```", it picks a random string from the array 
+
+```ruby
+["Hello", "Hi", "Ohai", "ZOMG"]
+```
+
+Every time you run the program it should print out either "```Hello Kristine!```", "```Hi Kristine!```", "```Ohai Kristine!```", or "```ZOMG Kristine!```".
+
+**Tip:** The method ```shuffle``` on [ruby Arrays](https://ruby-doc.org/core-2.4.1/Array.html#method-i-shuffle) does, well, shuffle the array :) That means it changes the order of the elements in the array in a random way.
+&nbsp;
