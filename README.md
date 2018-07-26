@@ -12,6 +12,7 @@ Add a code so that it prints out the following:
 San
 ```
 **Note:** There’s a method that upcases the first letter of a string. Consult the ruby String documenation or start googling for "```ruby string upcase first letter```"
+&nbsp;
 
 2. There is a method on hashes that allows to check if a certain key is defined on the hash. Find said method by googling for "```ruby hash key defined```".
 
