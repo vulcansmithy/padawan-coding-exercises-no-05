@@ -25,3 +25,17 @@ dictionary = { :one => "ichi", :two => "ni", :three => "san" }
 then calling the method and passing keys like :one, :two, :three and :five.
 
 **Tip:** Aside from using google, you can also consult the [ruby Hash documentation](https://ruby-doc.org/core-2.4.1/Hash.html).
+
+3. There is a method on ruby hashes that flips keys and values. Find said method in the [ruby Hash documentation](https://ruby-doc.org/core-2.4.1/Hash.html). Create a new file called ```exercise_03.rb```, and fill in the following line of code:
+
+```ruby
+dictionary = { :one => "ichi", :two => "ni", :three => "san" }
+# your code goes here...
+```
+	
+This should then output
+	
+```ruby	
+{ "ichi" => :one, "ni" => :two, "san" => :three }
+```	
+&nbsp;
