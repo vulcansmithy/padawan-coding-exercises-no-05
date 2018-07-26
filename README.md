@@ -39,3 +39,20 @@ This should then output
 { "ichi" => :one, "ni" => :two, "san" => :three }
 ```	
 &nbsp;
+
+4. Create a new file called ```exercise_04.rb```. In this ruby program, write a method greet that takes a name, prepends "```Hello ```", and appends an exclamation mark "```!```":	
+
+```ruby	
+def greet(name)
+  # your code goes here...
+end
+
+greet("Kristine")  
+```	
+	
+This should print out 
+
+```
+Hello Kristine!
+```
+&nbsp;
