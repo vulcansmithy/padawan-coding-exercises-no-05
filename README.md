@@ -124,5 +124,13 @@ So that you get the following output
 ```
 &nbsp;
 
+9. Copy ```exercise_09.rb``` and name it ```exercise_10.rb```. Now change your code so that you get the following output:
+
+```ruby
+["One", "Three", "Five"]
+```
+
+**Note:** Consult the [ruby String documentation](https://ruby-doc.org/core-2.4.1/String.html) for a method or function that would uppercase first letter of a string.
+&nbsp;
 
 
