@@ -47,7 +47,7 @@ def greet(name)
   # your code goes here...
 end
 
-greet("Kristine")  
+puts greet("Kristine")  
 ```	
 	
 This should print out 
@@ -67,3 +67,21 @@ Every time you run the program it should print out either "```Hello Kristine!```
 
 **Tip:** The method ```shuffle``` on [ruby Arrays](https://ruby-doc.org/core-2.4.1/Array.html#method-i-shuffle) does, well, shuffle the array :) That means it changes the order of the elements in the array in a random way.
 &nbsp;
+
+6. Create a new file and name it ```exercise_06.rb```. In this ruby program, write a method that converts a distance (a number) from miles to kilometers:
+
+```ruby
+def miles_to_kilometers(miles)
+  # your code goes here...
+end
+
+puts miles_to_kilometers(25)
+```
+
+This should print out
+
+```
+40.2336
+```	
+&nbsp;
+
