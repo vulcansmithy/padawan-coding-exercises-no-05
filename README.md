@@ -25,6 +25,7 @@ dictionary = { :one => "ichi", :two => "ni", :three => "san" }
 then calling the method and passing keys like :one, :two, :three and :five.
 
 **Tip:** Aside from using google, you can also consult the [ruby Hash documentation](https://ruby-doc.org/core-2.4.1/Hash.html).
+&nbsp;
 
 3. There is a method on ruby hashes that flips keys and values. Find said method in the [ruby Hash documentation](https://ruby-doc.org/core-2.4.1/Hash.html). Create a new file called ```exercise_03.rb```, and fill in the following line of code:
 
@@ -107,7 +108,7 @@ false
 
 **Bonus:** Also make it so that the method returns ```true``` for the year 2000 and 
 ```false``` for 1900. Because that’s really the definition of leap years.
-
+&nbsp;
 
 8. Create a new file and name it ```exercise_08.rb```, and fill in the following line of codes:
 
@@ -124,7 +125,7 @@ So that you get the following output
 ```
 &nbsp;
 
-9. Copy ```exercise_09.rb``` and name it ```exercise_10.rb```. Now change your code so that you get the following output:
+9. Copy ```exercise_08.rb``` and name it ```exercise_09.rb```. Now change your code so that you get the following output:
 
 ```ruby
 ["One", "Three", "Five"]
@@ -133,4 +134,9 @@ So that you get the following output
 **Note:** Consult the [ruby String documentation](https://ruby-doc.org/core-2.4.1/String.html) for a method or function that would uppercase first letter of a string.
 &nbsp;
 
+10. Copy ```exercise_09.rb``` and name it ```exercise_10.rb```. Now change your code so that you get the following output:
 
+```ruby
+["One <3", "Three <3", "Five <3"]
+```
+&nbsp;
