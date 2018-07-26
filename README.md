@@ -85,3 +85,28 @@ This should print out
 ```	
 &nbsp;
 
+7. Create a new file and name it ```exercise_07.rb```. In this ruby program, write a method leap_year? that takes a year (a number), and calculates if it is a leap year.
+
+```ruby
+def leap_year?(year)
+  # your code goes here
+end
+
+puts leap_year?(2012)
+puts leap_year?(2015)
+```
+
+This should print out
+
+```
+true
+false	
+```
+
+**Tip:** The ruby operator ```%``` or [modulo](https://www.quora.com/In-Ruby-what-is-modulo-rather-what-does-it-do) returns the remainder division, e.g. ```14 % 3``` returns ```2```.
+
+**Bonus:** Also make it so that the method returns ```true``` for the year 2000 and 
+```false``` for 1900. Because that’s really the definition of leap years.
+
+
+8. 
