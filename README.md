@@ -109,4 +109,20 @@ false
 ```false``` for 1900. Because that’s really the definition of leap years.
 
 
-8. 
+8. Create a new file and name it ```exercise_08.rb```, and fill in the following line of codes:
+
+```ruby
+words = ["one", "two", "three", "four", "five"]
+# your code goes here...
+puts words.inspect
+```
+
+So that you get the following output
+
+```ruby	
+["one", "three", "five"]	
+```
+&nbsp;
+
+
+
